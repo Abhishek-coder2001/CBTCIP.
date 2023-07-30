@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(45, 44, 44), green);
+}
+
+.calculator {
+    width: 380px;
+    height: 570x;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(4, 4, 38);
+    box-shadow: 0px 0px 7px 2px white;
+
+}
+
+
+
+input {
+    width: 320px;
+
+    padding: 20px;
+    margin: 10px;
+    /* font-style: italic; */
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.187);
+}
+
+
+
+input:hover {
+    color: rgb(255, 255, 255);
+
+
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    box-shadow: -1px 1px 9px -2px grey;
+    color: white;
+
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+.operator:hover {
+    font-size: 32px;
+    color: rgb(0, 255, 4);
+}
+
+.equal {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.equal {
+    background-color: rgb(247, 115, 0);
+}
+
+.equal:hover {
+    background: aqua;
+    color: black;
+}
+
+.function:hover {
+    color: aqua;
+
+}
+
+/* button:hover{
+    background-color:black;
+} */
